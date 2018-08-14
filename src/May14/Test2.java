@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 public class Test2 {
 	
+	//This is written from Git by Rajeshwari
+	
 	@Test(groups = {"Regression"}, dependsOnGroups = {"Sanity"}, alwaysRun = true)
 	public void m4(){
 		System.out.println("Inside m4");
