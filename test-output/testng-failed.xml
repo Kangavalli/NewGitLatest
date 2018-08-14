@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test suite]">
+  <parameter name="PageLoadTimeOut" value="60"/>
+  <parameter name="url" value="http://google.com"/>
+  <test name="my test(failed)">
+    <classes>
+      <class name="May14.Test1">
+        <methods>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- May14.Test1 -->
+    </classes>
+  </test> <!-- my test(failed) -->
+</suite> <!-- Failed suite [My test suite] -->

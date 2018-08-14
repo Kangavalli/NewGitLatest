@@ -1,0 +1,21 @@
+<suite name = "My test suite">
+		<parameter name = "url" value = "http://google.com"/>
+		<parameter name = "PageLoadTimeOut" value = "60"/>
+		<test name = "my test">
+				<classes>
+				<class name = "May14.Test1"/>
+				
+				</classes>
+				
+		<!-- packages>
+				<package name = "May14"/>
+		</packages>
+		<groups>
+			<run>
+					<include name = "Sanity"/>
+			</run>
+		</groups-->
+				
+		</test>>
+		
+</suite>
