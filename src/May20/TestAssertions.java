@@ -15,7 +15,9 @@ public class TestAssertions {
 			//code
 		}
 		boolean result = actualName.equals(expectedName);
-		Assert.assertTrue(result, "Two strings are not equal"); 	//if the result is not true it will display given message 
+		Assert.assertTrue(result, "Two strings are not equal"); 	
+		System.out.println("My Third git commit");
+		//if the result is not true it will display given message 
 	}
 	
 
